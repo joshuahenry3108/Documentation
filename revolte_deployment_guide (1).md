@@ -61,10 +61,6 @@ Follow the steps below to deploy your application using the Revolte platform.
 ---
 
 ### 5. Deploy Application
-- The **Deploy Application** page will display how/where the code will be deployed.
-
-![image](https://github.com/user-attachments/assets/41fb3686-3620-4450-aeaf-cb269f6a516f)
-
 - Choose:
   - **Environment**: `e.g., preview`
   - **Branch**: `e.g., dev`
@@ -76,13 +72,11 @@ Follow the steps below to deploy your application using the Revolte platform.
 
 ### 6. Final Deployment
 - Click **Confirm & Deploy**.
-- If required, add secrets or credentials during the popup.
-- Click **Confirm** in the confirmation popup.
+- If required, add secrets or credentials during the popup by clicking on **Add here** and Click **Confirm** in the confirmation popup.
 
 ![image](https://github.com/user-attachments/assets/370faea4-d085-4390-9605-dd07950bd4aa)
 
-- Deployment will begin.
-- The page should redirect to the **Runtime Log** for monitoring.
+- That's it! Deployment will begin and redirects you to the **Runtime Log** for monitoring.
 
 ![image](https://github.com/user-attachments/assets/605df2d7-3b15-4d36-ac4b-5c1d91f9a7a3)
 
@@ -93,13 +87,12 @@ Follow the steps below to deploy your application using the Revolte platform.
 
 ![image](https://github.com/user-attachments/assets/4225af61-126e-44ae-8455-05bec61c7ded)
 
+Revolte will now provision a new project with all services and configurations that were defined in the template.
 
-- The page should redirect to the **Overview** to view **Health Status**, **Application URL**, **Active Instances**
+- The page will get redirect to the **Overview** to view **Health Status**, **Application URL**, **Active Instances**
 
 ![image](https://github.com/user-attachments/assets/bbb90bc2-24f7-4e15-9af7-5c58618aec20)
 
-
 ---
-
 
 > ✅ You’ve now deployed your app using Revolte!
