@@ -1,4 +1,5 @@
-# Application Deployment Steps
+# Deploying Webapp
+To get started deploying our frontend app, we will first make a new project.
 
 1. **Navigate** to the **'All Projects'** dashboard.
 2. Click on the **'Deploy App'** button.
