@@ -4,15 +4,20 @@ Follow the steps below to deploy your application using the Revolte platform.
 
 ---
 
-### 1. Create Project
+### 1. Select Existing Project
 - Open the Revolte **'Projects'** dashboard.
-- Click on the **'Deploy App'** button.
+
+![image](https://github.com/user-attachments/assets/0d5bb590-9194-4872-97af-4acd71fde844)
+
+- Select the existing project where backend to be deployed. Click on the **'Create Application'** CTA.
+
+![image](https://github.com/user-attachments/assets/729887f2-7020-42e4-859a-e97178ff97b0)
+
 - Enter the following:
-  - **Project Name**: `your-project-name`
   - **Application Name**: `your-application-name`
   - **Repository**: `your-git-repo-url`
 
-![image](https://github.com/user-attachments/assets/541c31d0-969c-482c-ab50-c0b6d7ba76ac)
+![image](https://github.com/user-attachments/assets/e05e06c6-6cfb-40bf-bfa1-7bceb0a3d6a0)
 
 ---
 
@@ -21,11 +26,12 @@ Follow the steps below to deploy your application using the Revolte platform.
 - **Select Environment**: `preview` / `qa` / `staging` / `prod`
 - **Select Branch**: `main` / `develop` / `feature/*`
 
-![image](https://github.com/user-attachments/assets/165fa1db-b0f4-489d-a689-8a5546c4018b)
+![image](https://github.com/user-attachments/assets/ad9da7ef-b29d-4d7d-94c5-9f9c7b9c4ed7)
 
-- Click on **'Choose Services'**  `Webapp` / `Webservice` / `Webservice+Database` / `Cron` / `Cron+Database` and select the preset as **'Webapp'**.
 
-![image](https://github.com/user-attachments/assets/6d352d92-c9b0-4af0-be13-1e4df0ad37be)
+- Click on **'Choose Services'**  `Webapp` / `Webservice` / `Webservice+Database` / `Cron` / `Cron+Database` and select the preset as **'Webservice+Database'**.
+
+![image](https://github.com/user-attachments/assets/1f0434aa-e02f-4e4f-91d9-73647f5be91c)
 
 ---
 
