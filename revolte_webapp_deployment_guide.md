@@ -1,4 +1,4 @@
-# Revolte Application Deployment Guide
+# Deploying a Frontend WebApp on Revolte
 
 Follow the steps below to deploy your application using the Revolte platform.
 
