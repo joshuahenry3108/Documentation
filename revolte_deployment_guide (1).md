@@ -4,15 +4,9 @@ Follow the steps below to deploy your application using the Revolte platform.
 
 ---
 
-### 1. Access the Dashboard
+### 1. Create Project
 - Open the Revolte **'Projects'** dashboard.
 - Click on the **'Deploy App'** button.
-
-  ![image](https://github.com/user-attachments/assets/5fc50a25-b0a8-438c-b78f-385a964579e9)
-
----
-
-### 2. Provide Project Details
 - Enter the following:
   - **Project Name**: `your-project-name`
   - **Application Name**: `your-application-name`
@@ -22,25 +16,20 @@ Follow the steps below to deploy your application using the Revolte platform.
 
 ---
 
-### 3. YAML Configuration
-- A **YAML Configuration** page will be displayed with preset selection and YAML editor.
-
-![image](https://github.com/user-attachments/assets/bc3fa5b4-5632-4859-94cf-677a27ad0686)
-
+### 2. YAML Configuration
+- A **YAML Configuration** page will be displayed with preset template selection and YAML editor.
 - **Select Environment**: `preview` / `qa` / `staging` / `prod`
 - **Select Branch**: `main` / `develop` / `feature/*`
 
 ![image](https://github.com/user-attachments/assets/165fa1db-b0f4-489d-a689-8a5546c4018b)
 
-- Click on **'Choose Services'** and select the preset as **'Webapp'**.
-
-![image](https://github.com/user-attachments/assets/a1482590-345e-4c58-92ee-10d108eba422)
+- Click on **'Choose Services'**  `Webapp` / `Webservice` / `Webservice+Database` / `Cron` / `Cron+Database` and select the preset as **'Webapp'**.
 
 ![image](https://github.com/user-attachments/assets/6d352d92-c9b0-4af0-be13-1e4df0ad37be)
 
 ---
 
-### 4. Edit and Commit YAML
+### 3. Edit and Commit YAML
 - The default YAML will be populated in the editor.
 
 ![image](https://github.com/user-attachments/assets/9cdfb41a-d093-4788-bebd-5d08e87a5614)
@@ -50,9 +39,6 @@ Follow the steps below to deploy your application using the Revolte platform.
 ![image](https://github.com/user-attachments/assets/bfe1692b-7555-4e04-8426-f9d3995fd33b)
 
 - Enter **Git Commit Message**: `e.g., "Updated deployment config for webapp"`
-
-![image](https://github.com/user-attachments/assets/66f36de7-7289-4f6f-bfb8-6fa33c457d16)
-
 - Click **Confirm & Proceed**.
 - Confirm in the popup to generate a new `revolte.yml` in the repository.
 
@@ -60,7 +46,7 @@ Follow the steps below to deploy your application using the Revolte platform.
 
 ---
 
-### 5. Deploy Application
+### 4. Deploy Application
 - Choose:
   - **Environment**: `e.g., preview`
   - **Branch**: `e.g., dev`
@@ -70,7 +56,7 @@ Follow the steps below to deploy your application using the Revolte platform.
 
 ---
 
-### 6. Final Deployment
+### 5. Final Deployment
 - Click **Confirm & Deploy**.
 - If required, add secrets or credentials during the popup by clicking on **Add here** and Click **Confirm** in the confirmation popup.
 
@@ -82,7 +68,7 @@ Follow the steps below to deploy your application using the Revolte platform.
 
 ---
 
-### 7. Post-Deployment
+### 6. Post-Deployment
 - Deployment should complete.
 
 ![image](https://github.com/user-attachments/assets/4225af61-126e-44ae-8455-05bec61c7ded)
