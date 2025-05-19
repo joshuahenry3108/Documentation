@@ -1,6 +1,6 @@
 # Deploying a Backend Webservice with database on Revolte
 
-Follow the steps below to deploy your application using the Revolte platform.
+Follow the steps below to deploy your application using the Revolte platform in existing project.
 
 ---
 
@@ -36,29 +36,32 @@ Follow the steps below to deploy your application using the Revolte platform.
 ---
 
 ### 3. Edit and Commit YAML
-- The default YAML will be populated in the editor.
+- The default YAML for Webservice with Database will be populated in the editor.
 
-![image](https://github.com/user-attachments/assets/9cdfb41a-d093-4788-bebd-5d08e87a5614)
+![image](https://github.com/user-attachments/assets/061c6b8c-84af-422e-b7eb-b4c970882627)
 
-- Make any necessary changes (e.g., environment variables, branches, services).
 
-![image](https://github.com/user-attachments/assets/bfe1692b-7555-4e04-8426-f9d3995fd33b)
+- Make any necessary changes (e.g., environment variables, branches, services, port, database variables).
 
-- Enter **Git Commit Message**: `e.g., "Updated deployment config for webapp"`
+![image](https://github.com/user-attachments/assets/0adc754b-3cc1-45b1-b84c-fb66a7c44c94)
+
+
+- Enter **Git Commit Message**: `e.g., "Changes in yaml for qa env"`
 - Click **Confirm & Proceed**.
 - Confirm in the popup to generate a new `revolte.yml` in the repository.
 
-![image](https://github.com/user-attachments/assets/186f963d-5d58-480f-9a35-f65fb4ba7944)
+![image](https://github.com/user-attachments/assets/28c641f1-f9f8-4ca3-b5f5-0005d02262ef)
+
 
 ---
 
 ### 4. Deploy Application
 - Choose:
-  - **Environment**: `e.g., preview`
-  - **Branch**: `e.g., dev`
+  - **Environment**: `e.g., QA`
+  - **Branch**: `e.g., qatest`
 - The updated YAML will be visible in the Configuration section.
 
-![image](https://github.com/user-attachments/assets/234d0fc9-0431-4ad1-bce6-c762f2a19514)
+![image](https://github.com/user-attachments/assets/0d9a940d-b2cb-42c0-a592-d659e61be802)
 
 ---
 
@@ -66,24 +69,27 @@ Follow the steps below to deploy your application using the Revolte platform.
 - Click **Confirm & Deploy**.
 - If required, add secrets or credentials during the popup by clicking on **Add here** and Click **Confirm** in the confirmation popup.
 
-![image](https://github.com/user-attachments/assets/370faea4-d085-4390-9605-dd07950bd4aa)
+![image](https://github.com/user-attachments/assets/deef9af5-054a-4f22-a391-eb052993fe47)
+
 
 - That's it! Deployment will begin and redirects you to the **Runtime Log** for monitoring.
 
-![image](https://github.com/user-attachments/assets/605df2d7-3b15-4d36-ac4b-5c1d91f9a7a3)
+![image](https://github.com/user-attachments/assets/b536afc1-ef4e-4158-adf2-758f3875c5c4)
+
 
 ---
 
 ### 6. Post-Deployment
 - Deployment should complete.
 
-![image](https://github.com/user-attachments/assets/4225af61-126e-44ae-8455-05bec61c7ded)
+![image](https://github.com/user-attachments/assets/a78a745b-77cc-4eb8-b39c-30d81bc3f9c4)
 
-Revolte will now provision a new project with all services and configurations that were defined in the template.
+Revolte will now provision a existing project with all services and configurations that were defined in the template.
 
 - The page will get redirect to the **Overview** to view **Health Status**, **Application URL**, **Active Instances**
 
-![image](https://github.com/user-attachments/assets/bbb90bc2-24f7-4e15-9af7-5c58618aec20)
+![image](https://github.com/user-attachments/assets/5b7185fe-c5bf-42e0-8f5a-8cab41ecc9a5)
+
 
 ---
 
